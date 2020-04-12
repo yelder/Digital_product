@@ -1,0 +1,153 @@
+/* Variables----*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+--gold-color:#E39F38;
+--space:10px;
+
+}
+
+/* Variables---*/
+html,body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-family:'Open Sans', sans-serif;
+}
+
+label{
+font-size: 12px;
+padding-bottom: 5px;
+display: block;
+}
+
+nav{
+  display: flex;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav li{
+  padding-right: 10px;
+  list-style: none;
+}
+nav li a{
+  color: white;
+  text-decoration: none;
+}
+nav li a:hover{
+  color:gray;
+}
+/* ----------------------------------------------------Main section */
+.main_section{
+  padding: 15%;
+  text-align: center;
+  font-size: 25px
+}
+.products{
+  background-image: url("../images/curve.png");
+  max-height: 50px;
+  text-align: center;
+  background-size: cover;
+  background-position: center top,right;
+  padding: 20%;
+  display: flex;
+  margin-left;
+}
+.product{
+  padding: 10px;
+  margin-top: -240px;
+  margin-left: 80px;
+}
+.product .content{
+  background-color: white;
+  padding: 15px;
+  box-shadow:  0 0 4px #c37d15;
+}
+.img_content {
+  text-align: center;
+}
+.main_button{
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  color:#E39F38;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.main_button:hover{
+  background-color: #5f0606b5;
+}
+.atributes{
+padding: 10%;
+text-align: center;
+justify-content: space-between;
+display: flex;
+}
+.img_atributes{
+  text-align: center;
+}
+.titulo{
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+
+}
+.mentions{
+  padding: 10%;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+
+}
+.img_mentions{
+text-align: center;
+box-shadow:  0 0 4px #c37d15;
+}
+
+.modulo_pago{
+  background-color: white;
+  box-shadow: 0 0 4px #c37d15;
+  padding: 10px;
+}
+.modulo_pago_images{
+  max-width: 200px;
+  text-align: center;
+  margin: auto;
+}
+
+.data{
+  margin-top: 10px;
+ border-radius: 2px;
+ border: 1px solid color black;
+width:100%;
+height: 35px;
+box-sizing: border-box;
+}
+.modulo_pago .main_btn{
+  margin-top:10px;
+  width: 100%;
+   color: #E39F38;
+   background-color: black;
+   height: 35px;
+}
+
+footer{
+  display: flex;
+ justify-content: space-between;
+ font-size: 12px;
+ background-color:black;
+ padding: 20px;
+ color: white;
+}
+.contact a{
+  color: white;
+  text-decoration: none;
+  display: flex;
+}

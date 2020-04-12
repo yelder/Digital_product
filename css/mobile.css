@@ -1,0 +1,29 @@
+@media (max-width: 600px) {
+.products{
+  display: inherit;
+  margin-top: auto;
+  height: auto;
+  max-height: none;
+}
+.product{
+  margin-top: auto;
+  height: auto;
+}
+.img_content{
+  flex-wrap: wrap;
+}
+.main_section{
+  padding: 4%;
+}
+.atributes{
+margin top: auto;
+  display: inherit;
+}
+.mentions{
+  display: inherit;
+}
+.modulo_pago_images{
+  margin-top: auto;
+  display: inherit;
+}
+  }
